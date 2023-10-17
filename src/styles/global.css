@@ -1,0 +1,339 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+    --global-bg-color: #1E1D23;
+    --panel-bg-color: #1C1B20;
+    --terminal-bg-color: #131214;
+
+    --blue-taskbar-bg-color: #27343C;
+    --purple-taskbar-bg-color: #2A273A;
+
+    --white-font-color: #FFFFFF;
+    --grey-font-color: #727272;
+    --blue-font-color: #37F3DB;
+    --green-font-color: #4AF985;
+    --red-font-color: #F94A4A;
+    --orange-font-color: #F49475;
+    --yellow-font-color: #FFC224;
+    --purple-font-color: #A037F3;
+}
+
+.blue {
+    color: var(--blue-font-color);
+}
+
+.red {
+    color: var(--red-font-color);
+}
+
+.yellow {
+    color: var(--yellow-font-color);
+}
+
+.green {
+    color: var(--green-font-color);
+}
+
+.orange {
+    color: var(--orange-font-color);
+}
+
+.purple {
+    color: var(--purple-font-color);
+}
+
+.grey {
+    color: var(--grey-font-color);
+}
+
+/* No margin and padding on standard elements */
+html, body, h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    color: var(--white-font-color);
+}
+
+body {
+    background-color: var(--global-bg-color);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Styling layout */
+.layout {
+    width: 70%;
+    margin-left: 15%;
+}
+
+/* Banner image styling */
+.top-image-container {
+    padding: .5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-image {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to bottom, transparent 0%, var(--global-bg-color) 85%);
+    pointer-events: none;
+}
+
+/* Intro panel styling */
+.long-panel {
+    background-color: var(--panel-bg-color);
+    margin-bottom: 5rem;
+    z-index: 10;
+    border: 1px solid #303338;
+    border-radius: .5rem;
+}
+
+.long-panel .taskbar {
+    background-color: var(--blue-taskbar-bg-color);
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+
+.taskbar {
+    display: flex;
+}
+
+.taskbar p {
+    width: 50%;
+    padding: .5rem 1rem;
+    color: var(--blue-font-color);
+}
+
+.taskbar-icon {
+    width: 50%;
+    text-align: right;
+    color: var(--white-font-color) !important;
+}
+
+.long-panel p {
+    padding: .5rem 1rem;
+}
+
+.intro-panel p {
+    width: 75%;
+}
+
+.long-panel .call-to-action {
+    color: var(--blue-font-color);
+    padding-top: 2rem;
+}
+
+.long-panel a {
+    text-decoration: none;
+    color: var(--orange-font-color);
+}
+
+/* Terminal styling */
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.terminal {
+    background-color: var(--panel-bg-color);
+    margin-bottom: 5rem;
+    height: 80vh;
+    border: 1px solid #303338;
+    border-radius: .5rem;
+}
+
+.terminal .taskbar {
+    background-color: var(--purple-taskbar-bg-color);
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+
+.terminal .taskbar p {
+    padding: .5rem 1rem;
+    color: var(--purple-font-color);
+}
+
+.terminal-content {
+    padding: 1rem;
+}
+
+.bottom-spacing {
+    margin-bottom: 1rem;
+}
+
+.terminal-view {
+    display: none;
+}
+
+.terminal-width {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    border-radius: 0rem;
+}
+
+.terminal-toolbar-width {
+  border-radius: 0rem;
+}
+
+.drag-bar {
+  z-index: 10;
+}
+
+.welcome-msg-margin {
+  margin-top: 1.5rem;
+}
+
+/* Styling input fields */
+.terminal-input {
+background-color: inherit;
+  border: none;
+  outline: 0;
+  color: #fff;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.terminal-input:focus {
+    outline: none;
+}
+
+/* Styling projects */
+.tasks-container {
+    height: 30rem;
+}
+
+.task-header {
+    display: flex;
+    width: 100%;
+}
+
+.task-icon {
+    width: 5%;
+}
+
+.task-name {
+    width: 55%;
+}
+
+.task-date {
+    width: 20%;
+    text-align: right;
+}
+
+.task-status {
+    width: 20%;
+    text-align: right;
+}
+
+.task-row {
+    display: flex;
+    width: 100%;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.task-row:hover {
+    background-color: var(--terminal-bg-color);
+}
+
+.task-row:hover .task-name {
+    color: var(--orange-font-color);
+}
+
+.task-row .task-icon {
+    width: 5%;
+    color: var(--yellow-font-color);
+}
+
+.task-row .task-name {
+    width: 55%;
+}
+
+.task-row .task-date {
+    width: 20%;
+    text-align: right;
+    color: var(--grey-font-color);
+}
+
+.task-row .task-status {
+    width: 20%;
+    text-align: right;
+}
+
+.building {
+    background-color: var(--green-font-color);
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+}
+
+.complete {
+    background-color: var(--red-font-color);
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+}
+
+.count-panel-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+}
+
+.count-panel {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--panel-bg-color);
+    border-radius: .5rem;
+    border: 1px solid #303338;
+    height: 10rem;
+    position: relative;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+
+.purple-block {
+    border-left: .6rem solid var(--purple-font-color);
+}
+
+.yellow-block {
+    border-left: .6rem solid var(--yellow-font-color);
+}
+
+.blue-block {
+    border-left: .6rem solid var(--blue-font-color);
+}
+
+.new {
+    color: var(--green-font-color);
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.counter {
+    font-size: 5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1rem;
+}
