@@ -139,6 +139,11 @@ body {
 .long-panel a {
     text-decoration: none;
     color: var(--orange-font-color);
+    transition: .2s;
+}
+
+.long-panel a:hover {
+    text-decoration: underline;
 }
 
 /* Terminal styling */
@@ -364,7 +369,7 @@ h4 {
 .resume-item-large h4, .resume-item-small h4 {
     margin-top: 0rem;
     padding: .5rem 1rem;
-    color: var(--orange-font-color);
+    color: var(--blue-font-color);
 }
 
 .resume-title {
@@ -372,7 +377,7 @@ h4 {
     padding: 0;
     margin-left: 1%;
     margin-bottom: .5rem;
-    border-bottom: 2px dotted var(--white-font-color);
+    border-bottom: 2px dashed var(--grey-font-color);
 }
 
 .resume-row {
@@ -400,6 +405,11 @@ h4 {
 
 .resume-item-small p {
     color: var(--grey-font-color);
+    transition: .2s;
+}
+
+.resume-row:hover .resume-item-small p {
+    color: var(--white-font-color);
 }
 
 ul {
@@ -409,4 +419,13 @@ ul {
 
 .li-icon {
     font-size: .7rem;
+}
+
+.download-link {
+    cursor: pointer;
+    transition: .2s;
+}
+
+.download-link:hover {
+    text-decoration: underline;
 }
