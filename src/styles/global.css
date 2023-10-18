@@ -354,3 +354,29 @@ h3 {
 .set-right {
     text-align: right;
 }
+
+h4 {
+    padding: .5rem .2rem;
+    color: var(--yellow-font-color);
+}
+
+.resume-item h4 {
+    padding: .5rem 1rem;
+    color: var(--yellow-font-color);
+}
+
+.resume-title {
+    width: 98%;
+    padding: 0;
+    margin-left: 1%;
+    border-bottom: 2px dotted var(--white-font-color);
+}
+
+.resume-row {
+    widows: 100%;
+    display: flex;
+}
+
+.resume-item {
+    width: 50%;
+}
