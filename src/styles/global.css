@@ -280,6 +280,7 @@ background-color: inherit;
     background-color: var(--green-font-color);
     padding: .2rem .5rem;
     border-radius: .3rem;
+    color: var(--panel-bg-color);
 }
 
 .complete {

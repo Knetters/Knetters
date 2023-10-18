@@ -13,7 +13,7 @@ export default function Projects() {
                 <div className="tasks-container">
                     <p className="task-header"><span className="task-icon"></span><span className="task-name">name</span><span className="task-date">begin date</span><span className="task-status">status</span></p>
 
-                    {/* Hier komt een loop, GitHub api */}
+                    {/* Hier komt een loop, ??GitHub API?? */}
                     <p className="task-row"><span className="task-icon">L2</span><span className="task-name">your-tribe-for-life-profile-card</span><span className="task-date">12-sep-2023</span><span className="task-status"><span className="building">building</span></span></p>
                     <p className="task-row"><span className="task-icon">L2</span><span className="task-name">SPATwater-2.0</span><span className="task-date">03-oct-2023</span><span className="task-status"><span className="complete">complete</span></span></p>
                 </div>
