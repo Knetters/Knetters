@@ -356,27 +356,45 @@ h3 {
 }
 
 h4 {
+    margin-top: 1rem;
     padding: .5rem .2rem;
     color: var(--yellow-font-color);
 }
 
 .resume-item h4 {
+    margin-top: 0rem;
     padding: .5rem 1rem;
-    color: var(--yellow-font-color);
+    color: var(--orange-font-color);
 }
 
 .resume-title {
     width: 98%;
     padding: 0;
     margin-left: 1%;
+    margin-bottom: .5rem;
     border-bottom: 2px dotted var(--white-font-color);
 }
 
 .resume-row {
     widows: 100%;
     display: flex;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.resume-row:hover {
+    background-color: var(--terminal-bg-color);
 }
 
 .resume-item {
     width: 50%;
+}
+
+.resume-item p {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0rem 1rem;
 }
