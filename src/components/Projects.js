@@ -22,16 +22,20 @@ export default function Projects() {
             <div className="count-panel-row">
                 <div className="count-panel">
                     <h3 className="purple-block"><span className="grey">&#60;</span>Repos <span className="grey">/&#62;</span></h3>
-                    <span className="new">+2 last week</span>
+                    <span className="plus">+2 last week</span>
                     <span className="counter">34</span>
                 </div>
 
                 <div className="count-panel">
                     <h3 className="yellow-block"><span className="grey">&#60;</span>Stars <span className="grey">/&#62;</span></h3>
+                    <span className="plus">+1 last week</span>
+                    <span className="counter">31</span>
                 </div>
 
                 <div className="count-panel">
                     <h3 className="blue-block"><span className="grey">&#60;</span>Followers <span className="grey">/&#62;</span></h3>
+                    <span className="min">-1 last week</span>
+                    <span className="counter">8</span>
                 </div>
             </div>
         </div>

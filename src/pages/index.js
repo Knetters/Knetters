@@ -7,6 +7,7 @@ import Banner from "../components/Banner"
 import Intro from "../components/Intro"
 import Terminal from "../components/Terminal"
 import Projects from "../components/Projects"
+import Resume from "../components/Resume"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Helmet>
         <title>Knetters</title>
         <meta name="description" content="Digital resume" />
+        <script src="/script/terminal-logic.js" type="text/javascript" />
       </Helmet>
 
       <Banner />
@@ -22,6 +24,7 @@ export default function Home() {
         <Intro />
         <Terminal />
         <Projects />
+        <Resume />
       </Layout>
     </main>
   )

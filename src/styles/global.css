@@ -323,8 +323,15 @@ h3 {
     border-left: .6rem solid var(--blue-font-color);
 }
 
-.new {
+.plus {
     color: var(--green-font-color);
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.min {
+    color: var(--red-font-color);
     position: absolute;
     bottom: 0;
     padding-bottom: 1rem;
@@ -336,4 +343,13 @@ h3 {
     bottom: 0;
     right: 0;
     padding-right: 1rem;
+}
+
+/* Styling resume */
+.resume-container {
+    margin-top: 5rem;
+}
+
+.set-right {
+    text-align: right;
 }
