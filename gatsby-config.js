@@ -8,5 +8,11 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
-}
+  siteMetadata: {
+    // Your site metadata here
+  },
+  plugins: [
+    // ... other plugins
+    'gatsby-plugin-react-helmet',
+  ],
+};
