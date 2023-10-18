@@ -361,7 +361,7 @@ h4 {
     color: var(--yellow-font-color);
 }
 
-.resume-item h4 {
+.resume-item-large h4, .resume-item-small h4 {
     margin-top: 0rem;
     padding: .5rem 1rem;
     color: var(--orange-font-color);
@@ -386,15 +386,27 @@ h4 {
     background-color: var(--terminal-bg-color);
 }
 
-.resume-item {
-    width: 50%;
+.resume-item-large {
+    width: 70%;
 }
 
-.resume-item p {
+.resume-item-small {
+    width: 30%;
+}
+
+.resume-item-large, .resume-item-small p {
     width: 100%;
+}
+
+.resume-item-small p {
+    color: var(--grey-font-color);
 }
 
 ul {
     list-style: none;
     padding: 0rem 1rem;
+}
+
+.li-icon {
+    font-size: .7rem;
 }
