@@ -4,8 +4,8 @@ export default function Terminal() {
 
     return (
         <div>
-            <h2 id="terminal"><span className="grey">&#60;</span>Digital brain <span className="grey">/&#62;</span></h2>
-            <section className="terminal">
+            <h2 id="digital-brain"><span className="grey">&#60;</span>Digital brain <span className="grey">/&#62;</span></h2>
+            <section id="terminal" className="terminal">
                 <div className="taskbar">
                     <p>(o) Terminal</p>
                     <p className="taskbar-icon">⌥⌘</p>

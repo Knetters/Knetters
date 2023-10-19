@@ -9,7 +9,7 @@ export default function Intro() {
             </div>
             <p>Mijn naam is Thomas Scheepers.</p>
             <p>Ik ben een veelzijdige professional met ruime ICT-ervaring, inclusief netwerken, programmeren, IT-support en computerassemblage. Mijn creatieve vaardigheden en communicatieve bekwaamheid maken me een waardevolle aanwinst in teams en discussies.</p>
-            <p className="call-to-action">Communiceer met de <a href="#terminal">terminal</a> om meer te weten!</p>
+            <p className="call-to-action">Communiceer met de <a href="#digital-brain">terminal</a> om meer te weten!</p>
         </section>
     )
 }

@@ -1,3 +1,5 @@
+const terminal = document.getElementById("terminal")
+
 // Get current time and date for the task bar
 const timeField = document.getElementById("time-field")
 const weekdays = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat'];
@@ -164,11 +166,11 @@ function goTo(url) {
 generateTextArt()
 
 let inputElem = document.querySelector("input");
-window.addEventListener('load', function(e) {
+terminal.addEventListener('load', function(e) {
     inputElem.focus();
 })
 
-window.addEventListener('click', function(e) {
+terminal.addEventListener('click', function(e) {
     inputElem.focus();
 })
 

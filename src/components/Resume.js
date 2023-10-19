@@ -4,12 +4,12 @@ export default function Resume() {
 
     return (
         <div className="resume-container">
-            <h2 className="set-right"><span className="grey">&#60;</span>Resume <span className="grey">/&#62;</span></h2>
+            <h2 id="resume" className="set-right"><span className="grey">&#60;</span>Resume <span className="grey">/&#62;</span></h2>
 
             <section className="long-panel intro-panel">
                 <div className="taskbar">
                     <p>(o) Terminal</p>
-                    <p className="taskbar-icon download-link">Download</p>
+                    <p id="downloadPDF" className="taskbar-icon download-link">Download</p>
                 </div>
 
                 <section id="exportPDF" className="inner-resume-container">
@@ -113,6 +113,36 @@ export default function Resume() {
                     {/* Skills */}
                     <div className="resume-title">
                         <h4>Skills</h4>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value last-skill">8/10</p>
+                        </div>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">HTML</p>
+                            <p className="skill-value last-skill">8/10</p>
+                        </div>
                     </div>
 
                 </section>

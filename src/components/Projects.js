@@ -4,7 +4,7 @@ export default function Projects() {
 
     return (
         <div>
-            <h2><span className="grey">&#60;</span>Projects <span className="grey">/&#62;</span></h2>
+            <h2 id="projects"><span className="grey">&#60;</span>Projects <span className="grey">/&#62;</span></h2>
             <section className="long-panel">
                 <div className="taskbar">
                     <p>(o) Current tasks</p>

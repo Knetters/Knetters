@@ -70,6 +70,24 @@ body {
 }
 
 /* Banner image styling */
+nav {
+    text-align: center;
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+nav a {
+    color: var(--white-font-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: var(--orange-font-color);
+    text-decoration: underline;
+}
+
+
 .top-image-container {
     padding: .5rem;
     position: relative;
@@ -450,4 +468,36 @@ ul {
 
 .download-link:hover {
     text-decoration: underline;
+}
+
+.skill-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: .3rem;
+}
+
+.skill-item {
+    width: 100%;
+    display: flex;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.skill-item:hover {
+    background-color: var(--terminal-bg-color);
+}
+
+.skill-name {
+    width: 50%;
+    color: var(--green-font-color);
+}
+
+.skill-value {
+    width: 50%;
+    text-align: right;
+    border-right: 2px dashed var(--grey-font-color);
+}
+
+.last-skill {
+    border: none;
 }
