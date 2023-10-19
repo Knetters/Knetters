@@ -121,27 +121,110 @@ export default function Resume() {
                             <p className="skill-value">8/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">HTML</p>
+                            <p className="skill-name">CSS</p>
                             <p className="skill-value">8/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">HTML</p>
+                            <p className="skill-name">JavaScript</p>
+                            <p className="skill-value last-skill">7/10</p>
+                        </div>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Python</p>
+                            <p className="skill-value">7/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">C#</p>
+                            <p className="skill-value">5/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">CLI</p>
+                            <p className="skill-value last-skill">7/10</p>
+                        </div>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Windows</p>
+                            <p className="skill-value">9/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">MacOS</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Linux</p>
+                            <p className="skill-value last-skill">5/10</p>
+                        </div>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">IOS</p>
+                            <p className="skill-value">9/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Android</p>
+                            <p className="skill-value">8/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Office</p>
                             <p className="skill-value last-skill">8/10</p>
                         </div>
                     </div>
 
                     <div className="skill-row">
                         <div className="skill-item">
-                            <p className="skill-name">HTML</p>
+                            <p className="skill-name">Customer care</p>
+                            <p className="skill-value">9/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Scrum</p>
                             <p className="skill-value">8/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">HTML</p>
+                            <p className="skill-name">Figma</p>
+                            <p className="skill-value last-skill">9/10</p>
+                        </div>
+                    </div>
+
+                    <div className="resume-title">
+                        <h4>Languages</h4>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Nederlands</p>
+                            <p className="skill-value">9/10</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Engels</p>
                             <p className="skill-value">8/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">HTML</p>
-                            <p className="skill-value last-skill">8/10</p>
+                            <p className="skill-name">Klingon</p>
+                            <p className="skill-value last-skill">2/10</p>
+                        </div>
+                    </div>
+
+                    <div className="resume-title">
+                        <h4>Extra</h4>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Rijbewijs</p>
+                            <p className="skill-value">B</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name"></p>
+                            <p className="skill-value"></p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name"></p>
+                            <p className="skill-value last-skill"></p>
                         </div>
                     </div>
 
