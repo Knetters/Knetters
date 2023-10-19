@@ -14,13 +14,13 @@ export default function Terminal() {
                 
                 <div id="welcome-msg" className="welcome-msg-margin">
                     <p id="text-art" className="text-art-style" aria-hidden="true">Loading...</p>
-                    <p className="bottom-spacing">To my digital brain - Type <span className="blue">help</span> for a list of supported commands.</p>
+                    <p className="bottom-spacing">To my digital brain - Type <span className="purple">help</span> for a list of supported commands.</p>
                 </div>
 
                 <div id="output">
 
                 </div>
-                <p><span className="blue" aria-hidden="true">~/tmp/users</span> <span className="green" aria-hidden="true">admin </span><span className="red" aria-hidden="true"> </span><input type="text" className="terminal-input" spellcheck="false" /></p>
+                <p><span className="orange" aria-hidden="true">~/tmp/users</span> <span className="red" aria-hidden="true">admin &#62;</span><span className="red" aria-hidden="true"> </span><input type="text" className="terminal-input" spellcheck="false" /></p>
             </div>
             </section>
         </div>
