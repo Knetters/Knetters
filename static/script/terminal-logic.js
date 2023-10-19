@@ -54,7 +54,6 @@ function help() {
     <p><span class="help-command">info</span> <span class="help-description grey">List information.</span></p>
     <p><span class="help-command">time</span> <span class="help-description grey">Shows the current time.</span></p>
     <p><span class="help-command">goto [URL]</span> <span class="help-description grey">Redirects to given URL.</span></p>
-    <p><span class="help-command">color [type]</span> <span class="help-description grey">Sets terminal font color.</span></p>
     `);
 }
 
@@ -161,43 +160,6 @@ function goTo(url) {
     fillBar(); 
 }
 
-// Function to change the color of the text
-function color(colorValue) {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
-
-    const terminalBodies = document.getElementsByClassName("terminal");
-    const terminalBody = terminalBodies[0];
-
-    if (colorValue === "green") {
-        terminalBody.classList.remove("red", "blue", "purple", "yellow", "white")
-        terminalBody.classList.add("green")
-    }
-    else if (colorValue === "red") {
-        terminalBody.classList.remove("green", "blue", "purple", "yellow", "white")
-        terminalBody.classList.add("red")
-    }
-    else if (colorValue === "blue") {
-        terminalBody.classList.remove("green", "red", "purple", "yellow", "white")
-        terminalBody.classList.add("blue")
-    }
-    else if (colorValue === "purple") {
-        terminalBody.classList.remove("green", "red", "blue", "yellow", "white")
-        terminalBody.classList.add("purple")
-    }
-    else if (colorValue === "yellow") {
-        terminalBody.classList.remove("green", "red", "blue", "purple", "white")
-        terminalBody.classList.add("yellow")
-    }
-    else if (colorValue === "white") {
-        terminalBody.classList.remove("green", "red", "blue", "purple", "yellow")
-        terminalBody.classList.add("white")
-    }
-    // Color failsafe
-    else {
-        output.insertAdjacentHTML('beforeend', `<p class="grey">"${colorValue}" is not a valid color. Choose between: red, purple, blue, green, yellow or white.</p>`);
-    }
-}
-
 // Startup functions and values
 generateTextArt()
 
@@ -246,9 +208,6 @@ input.addEventListener('keyup', (event) => {
     }
     else if (assignment === "goto") {
         goTo(parameter);
-    }
-    else if (assignment === "color") {
-        color(parameter);
     }
     else if (assignment === "") {
         output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
