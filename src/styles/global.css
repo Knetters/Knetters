@@ -459,6 +459,7 @@ ul {
 
 .li-icon {
     font-size: .7rem;
+    color: var(--grey-font-color);
 }
 
 .download-link {
