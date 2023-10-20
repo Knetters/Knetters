@@ -15,9 +15,7 @@ const lastLogin = document.getElementById("last-login");
 const output = document.getElementById("output")
 const welcomeMSG = document.getElementById("welcome-msg")
 
-function generateTextArt() {
-    
-    const welcomeArt = `
+const welcomeArt = `
 ||   / |  / /                                                   
 ||  /  | / /   ___     //   ___      ___     _   __      ___    
 || / /||/ /  //___))  //  //   ))  //   ))  // ))  ))  //___))  
@@ -25,6 +23,7 @@ function generateTextArt() {
 |__/  |_/  ((____   //  ((____   ((___//  // //  //  ((____     
 `
 
+function generateTextArt() {
     textArt.innerHTML = welcomeArt
 }
 
