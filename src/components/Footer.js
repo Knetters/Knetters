@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="long-panel intro-panel">
             <div className="taskbar">
-                <p>(o) Footer</p>
+                <p>♢ Footer</p>
             </div>
             <p>Kom in contact met mij!</p>
             <div className="footer-row">
