@@ -13,7 +13,7 @@ export default function Terminal() {
                 <div class="terminal-content">
                 
                 <div id="welcome-msg" className="welcome-msg-margin">
-                    <p id="text-art" className="text-art-style" aria-hidden="true">Loading...</p>
+                    <p id="text-art" className="text-art-style" aria-hidden="true"><span className="red" >Terminal disabled</span></p>
                     <p className="bottom-spacing">To my digital brain - Type <span className="purple">help</span> for a list of supported commands.</p>
                 </div>
 
