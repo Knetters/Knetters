@@ -520,3 +520,7 @@ ul {
     color: var(--yellow-font-color);
     padding-bottom: .5rem;
 }
+
+.footer-link {
+    color: var(--white-font-color) !important;
+}

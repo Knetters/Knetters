@@ -12,9 +12,9 @@ export default function Footer() {
                 <div className="footer-column">
                     <ul>
                         <li className="list-header">Socials</li>
-                        <li>GitHub</li>
-                        <li>LinkedIn</li>
-                        <li>Instragram</li>
+                        <li><a className="footer-link" href="https://github.com/knetters/" target="_blank">GitHub</a></li>
+                        <li><a className="footer-link" href="https://www.linkedin.com/in/thomas-scheepers-b83676187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm" target="_blank">LinkedIn</a></li>
+                        <li><a className="footer-link" href="https://www.instagram.com/thomas.j.b.s/" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
 
@@ -29,10 +29,11 @@ export default function Footer() {
 
                 <div className="footer-column">
                     <ul>
-                        <li className="list-header">titel</li>
-                        <li>text</li>
-                        <li>text</li>
-                        <li>text</li>
+                        <li className="list-header">Navigation</li>
+                        <li><a className="footer-link" href="#intro">Intro</a></li>
+                        <li><a className="footer-link" href="#digital-brain">Digital brain</a></li>
+                        <li><a className="footer-link" href="#projects">Projects</a></li>
+                        <li><a className="footer-link" href="#resume">Resume</a></li>
                     </ul>
                 </div>
             </div>
