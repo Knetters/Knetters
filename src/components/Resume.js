@@ -83,7 +83,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Stagiaire Developer bij DreamLab</h4>
+                            <h4>Stagiair Developer bij DreamLab</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Het ontwerpen van websites</li>
                                 <li><span className="li-icon">▶</span> Het ontwikkelen van websites met WordPress</li>
@@ -97,7 +97,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Stagiare Developer bij RAADHUIS</h4>
+                            <h4>Stagiair Developer bij RAADHUIS</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Het ontwikkelen en onderhouden van websites</li>
                                 <li><span className="li-icon">▶</span> Aanpassingen aanbrengen aan websites op verzoek van de opdrachtgever</li>
