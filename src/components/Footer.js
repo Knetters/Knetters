@@ -36,7 +36,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <p className="call-to-action">All rights reserved <a href="#digital-brain">©</a> 2023</p>
+            <p className="call-to-action">All rights reserved <span className="orange">©</span> 2023</p>
         </footer>
     )
 }

@@ -35,7 +35,7 @@ function clear() {
 
 // Function to make the user a sudo user
 function sudo() {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     output.insertAdjacentHTML('beforeend', `<p>Permission <span class="yellow">denied</span>: unable to run command.</p>`);
     
     setTimeout(function() {
@@ -45,7 +45,7 @@ function sudo() {
 
 // Function for the help commando
 function help() {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     output.insertAdjacentHTML('beforeend', `
     <p><span class="yellow" aria-hidden="true">=====></span> Commands <span class="yellow" aria-hidden="true">=====></span></p>
     <p><span class="help-command">clear</span> <span class="help-description grey">Clears the terminal.</span></p>
@@ -61,13 +61,13 @@ function help() {
 
 // Function that shows the current version
 function version() {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     output.insertAdjacentHTML('beforeend', `<p>Version: <span class="yellow">1.4.1</span></p>`);
 }
 
 // Function that redirects the user to my GitHub profile
 function github() {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
 
     output.insertAdjacentHTML('beforeend', `<p>Requesting GitHub profile: <span class="yellow">Knetters</span></p>`);
 
@@ -96,7 +96,7 @@ function github() {
 
 // Function that gives the user info
 function info() {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     
     output.insertAdjacentHTML('beforeend', `<p>Progress: <span id="progressBar">░░░░░░░░░░░░░░░░░░░░</span></p>`);
     const progressBars = document.querySelectorAll("#progressBar");
@@ -133,13 +133,13 @@ function time() {
     let t = new Date();
     let outputTime = t.getHours() + ":" + (t.getMinutes()<10?'0':'') + t.getMinutes();
 
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     output.insertAdjacentHTML('beforeend', `<p>Current time: <span class="purple">${outputTime}</span></p>`);
 }
 
 // Function that gos to the url the user types
 function goTo(url) {
-    output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+    output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     output.insertAdjacentHTML('beforeend', `<p>Requesting URl:</p>`);
     output.insertAdjacentHTML('beforeend', `<p>Progress: <span id="progressBar">░░░░░░░░░░░░░░░░░░░░</span></p>`);
     const progressBars = document.querySelectorAll("#progressBar");
@@ -214,11 +214,11 @@ input.addEventListener('keyup', (event) => {
         goTo(parameter);
     }
     else if (assignment === "") {
-        output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+        output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
     }
     // Command failsafe
     else {
-        output.insertAdjacentHTML('beforeend', `<p><span class="orange">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+        output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
         output.insertAdjacentHTML('beforeend', `<p class="grey">"${input.value}" is not a valid command. Type <span class="blue">help</span> for a list of commands.</p>`);
     }
     input.value = '';
