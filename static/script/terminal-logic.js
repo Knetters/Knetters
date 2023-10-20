@@ -112,6 +112,8 @@ function info() {
                     output.insertAdjacentHTML('beforeend', `
                     <p><span class="yellow" aria-hidden="true">=====></span> Information <span class="yellow" aria-hidden="true">=====></span></p>
                     <p><span class="info-label">Name:</span> <span class="info-description green">Thomas Scheepers</span></p>
+                    <p><span class="info-label">Age:</span> <span class="info-description green">23y</span></p>
+                    <p><span class="info-label">Gender:</span> <span class="info-description green">Male</span></p>
                     <p><span class="info-label">Email:</span> <span class="info-description green">thomas@scheepers.com</span></p>
                     <p><span class="info-label">GitHub Name:</span> <span class="info-description yellow">Knetters</span></p>
                 `);
