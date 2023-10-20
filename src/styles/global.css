@@ -359,14 +359,17 @@ h3 {
 
 .purple-block {
     border-left: .6rem solid var(--purple-font-color);
+    border-radius: .2rem;
 }
 
 .yellow-block {
     border-left: .6rem solid var(--yellow-font-color);
+    border-radius: .2rem;
 }
 
 .blue-block {
     border-left: .6rem solid var(--blue-font-color);
+    border-radius: .2rem;
 }
 
 .plus {
