@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main>
       <Helmet>
-        <title>Knetters</title>
+        <title>Knetters - Portfolio and Resume</title>
         <meta name="description" content="Digital resume" />
         <script src="/script/terminal-logic.js" type="text/javascript" />
         <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
