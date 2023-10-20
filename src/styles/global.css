@@ -505,3 +505,18 @@ ul {
 .last-skill {
     border: none;
 }
+
+/* Footer styling */
+.footer-row {
+    width: 100%;
+    display: flex;
+}
+
+.footer-column {
+    width: 100%;
+}
+
+.list-header {
+    color: var(--yellow-font-color);
+    padding-bottom: .5rem;
+}

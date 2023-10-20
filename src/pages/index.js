@@ -8,6 +8,7 @@ import Intro from "../components/Intro"
 import Terminal from "../components/Terminal"
 import Projects from "../components/Projects"
 import Resume from "../components/Resume"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Terminal />
         <Projects />
         <Resume />
+        <Footer />
       </Layout>
     </main>
   )
