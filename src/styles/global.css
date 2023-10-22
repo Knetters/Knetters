@@ -569,6 +569,7 @@ ul {
 
     .task-status {
         width: 25%;
+        text-align: right;
     }
 
     .count-panel-row, .skill-row, .footer-row {
