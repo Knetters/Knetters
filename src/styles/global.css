@@ -528,7 +528,8 @@ ul {
 /* Mobile view */
 
 @media only screen and (max-width: 800px) {
-  /* Styling layout */
+
+    /* Styling layout */
     .layout {
         width: 94%;
         margin-left: 3%;
@@ -536,10 +537,12 @@ ul {
     }
 
     nav {
-        text-align: center;
-        font-size: .8rem;
         margin-top: 1rem;
         margin-bottom: .5rem;
+    }
+
+    .top-image {
+        height: 20vh;
     }
 
     .intro-panel p {
