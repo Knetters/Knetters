@@ -527,7 +527,7 @@ ul {
 
 /* Mobile view */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
     /* Styling layout */
     .layout {
@@ -563,12 +563,24 @@ ul {
         display: none;
     }
 
+    .task-row {
+        width: 100%;
+    }
+
     .task-name {
-        width: 75%;
+        width: 80%;
     }
 
     .task-status {
-        width: 25%;
+        width: 20%;
+    }
+
+    .task-row .task-name {
+        width: 80%;
+    }
+    
+    .task-row .task-status {
+        width: 20%;
         text-align: right;
     }
 
