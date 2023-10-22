@@ -531,8 +531,8 @@ ul {
 
     /* Styling layout */
     .layout {
-        width: 94%;
-        margin-left: 3%;
+        padding: .5rem;
+        width: 100%;
         font-size: .8rem;
     }
 
