@@ -20,7 +20,7 @@ export default function Terminal() {
                 <div id="output">
 
                 </div>
-                <p><span className="blue" aria-hidden="true">~/tmp/users</span> <span className="red" aria-hidden="true">admin &#62;</span><span className="red" aria-hidden="true"> </span><input type="text" className="terminal-input" spellcheck="false" /></p>
+                <p><span className="blue" aria-hidden="true">~/tmp/users</span> <span className="red" aria-hidden="true">admin &#62;</span><span className="red" aria-hidden="true"> </span><input type="text" autocomplete="off" aria-autocomplete="none" className="terminal-input" spellcheck="false" /></p>
             </div>
             </section>
         </div>
