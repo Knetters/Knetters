@@ -559,6 +559,10 @@ ul {
       font-size: .8rem;
     }
 
+    .task-icon, .task-date {
+        display: none;
+    }
+
     .count-panel-row, .skill-row, .footer-row {
         flex-direction: column;
     }
