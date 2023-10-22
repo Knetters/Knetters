@@ -527,7 +527,7 @@ ul {
 
 /* Mobile view */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* Styling layout */
     .layout {
         width: 94%;
