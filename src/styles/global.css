@@ -536,6 +536,11 @@ ul {
         font-size: .8rem;
     }
 
+    h2 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
     nav {
         margin-top: 1rem;
         margin-bottom: .5rem;
