@@ -524,3 +524,33 @@ ul {
 .footer-link {
     color: var(--white-font-color) !important;
 }
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px) {
+  /* Styling layout */
+    .layout {
+        width: 94%;
+        margin-left: 3%;
+        font-size: .8rem;
+    }
+
+    nav {
+        text-align: center;
+        font-size: .8rem;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .intro-panel p {
+        width: 100%;
+    }
+
+    .terminal-input {
+      font-size: .8rem;
+    }
+
+    .count-panel-row, .skill-row, .footer-row {
+        flex-direction: column;
+    }
+}
