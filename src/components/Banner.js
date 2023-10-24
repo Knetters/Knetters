@@ -2,22 +2,17 @@ import React, { useEffect, useState } from "react";
 
 export default function Banner() {
 
-  // List of banner images
-  const bannerImages = ["frog.jpeg", "wizard.jpeg", "dungeon.jpeg"];
+  // const bannerImages = ["frog.jpeg", "wizard.jpeg", "dungeon.jpeg"];
+  // const [selectedImage, setSelectedImage] = useState("");
 
-  // State to store the selected image
-  const [selectedImage, setSelectedImage] = useState("");
-
-  // Function to select a random image
-  const getRandomImage = () => {
-    const randomIndex = Math.floor(Math.random() * bannerImages.length);
-    return bannerImages[randomIndex];
-  };
-
-  // Set the initial image when the component mounts
-  useEffect(() => {
-    setSelectedImage(getRandomImage());
-  }, []);
+  // const getRandomImage = () => {
+  //   const randomIndex = Math.floor(Math.random() * bannerImages.length);
+  //   return bannerImages[randomIndex];
+  // };
+  
+  // useEffect(() => {
+  //   setSelectedImage(getRandomImage());
+  // }, []);
 
   return (
     <div>
@@ -27,7 +22,7 @@ export default function Banner() {
 
       <section className="top-image-container">
         {/* Display the selected random image */}
-        <img className="top-image" src={`/img/${selectedImage}`} alt="" />
+        <img className="top-image" src={`/img/dungeon.jpeg`} alt="" />
         <div className="gradient-overlay"></div>
       </section>
     </div>
