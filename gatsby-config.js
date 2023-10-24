@@ -14,5 +14,14 @@ module.exports = {
   plugins: [
     // ... other plugins
     'gatsby-plugin-react-helmet',
+
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GRAPHCMS`,
+        fieldName: `graphCmsData`,
+        url: `https://eu-west-2.cdn.hygraph.com/content/clo4b0uqa6wwz01un3a95a937/master`,
+      }
+    }
   ],
 };

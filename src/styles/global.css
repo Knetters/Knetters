@@ -322,16 +322,20 @@ background-color: inherit;
 }
 
 .building {
+    background-color: var(--red-font-color);
+    padding: .2rem .5rem;
+    border-radius: .3rem;
+}
+
+.complete {
     background-color: var(--green-font-color);
     padding: .2rem .5rem;
     border-radius: .3rem;
     color: var(--panel-bg-color);
 }
 
-.complete {
-    background-color: var(--red-font-color);
-    padding: .2rem .5rem;
-    border-radius: .3rem;
+.project-line-a {
+    text-decoration: none !important;
 }
 
 .count-panel-row {

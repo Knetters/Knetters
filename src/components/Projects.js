@@ -1,6 +1,25 @@
 import React, { useState, useEffect } from "react";
-
+import { useStaticQuery, graphql } from "gatsby";
+ 
 export default function Projects() {
+
+    const data = useStaticQuery(graphql`
+    query {
+        graphCmsData {
+            projects {
+                id
+                title
+                url
+                slug
+                level
+                created
+                code
+                }
+            }
+        }
+    `);
+
+    const projects = data.graphCmsData.projects;
 
     const [userData, setUserData] = useState(null);
 
@@ -23,9 +42,10 @@ export default function Projects() {
                 <div className="tasks-container">
                     <p className="task-header"><span className="task-icon"></span><span className="task-name">name</span><span className="task-date">begin date</span><span className="task-status">status</span></p>
 
-                    {/* Hier komt een loop, ??GitHub API?? */}
-                    <p className="task-row"><span className="task-icon">L2</span><span className="task-name">your-tribe-for-life-profile-card</span><span className="task-date">12-sep-2023</span><span className="task-status"><span className="building">building</span></span></p>
-                    <p className="task-row"><span className="task-icon">L2</span><span className="task-name">SPATwater-2.0</span><span className="task-date">03-oct-2023</span><span className="task-status"><span className="complete">complete</span></span></p>
+                    {projects.map((project) => (
+                        <a className="project-line-a" href={project.url} target="_blank" rel="noopener noreferrer"><p className="task-row"><span className="task-icon">{project.code}</span><span className="task-name">{project.title}</span><span className="task-date">{project.created}</span><span className="task-status"><span className={`${project.level === "building" ? "building" : "complete"}`}>{project.level}</span></span></p></a>
+                    ))}
+
                 </div>
                 
             </section>
