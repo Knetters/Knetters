@@ -198,11 +198,11 @@ h2 {
     font-size: .6rem;
 }
 
-.terminal-content::-webkit-scrollbar {
+.terminal-content::-webkit-scrollbar, .tasks-container::-webkit-scrollbar {
     display: none;
 }
 
-.terminal-content {
+.terminal-content, .tasks-container {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -261,6 +261,7 @@ background-color: inherit;
 /* Styling projects */
 .tasks-container {
     height: 30rem;
+    overflow-y: scroll;
 }
 
 .task-header {
