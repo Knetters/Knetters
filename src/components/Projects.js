@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Projects() {
+
+    const [userData, setUserData] = useState(null);
+
+    useEffect(() => {
+        // Fetch user data
+        fetch("https://api.github.com/users/knetters")
+        .then((response) => response.json())
+        .then((data) => setUserData(data))
+        .catch((error) => console.error("Error fetching user data from GitHub API:", error));
+    }, []);
 
     return (
         <div>
@@ -23,19 +33,19 @@ export default function Projects() {
                 <div className="count-panel">
                     <h3 className="purple-block"><span className="grey">&#60;</span>Repos <span className="grey">/&#62;</span></h3>
                     <span className="plus">+2 last week</span>
-                    <span className="counter">34</span>
+                    <span className="counter">{userData ? userData.public_repos : "0"}</span>
                 </div>
 
                 <div className="count-panel">
-                    <h3 className="yellow-block"><span className="grey">&#60;</span>Stars <span className="grey">/&#62;</span></h3>
+                    <h3 className="yellow-block"><span className="grey">&#60;</span>Followers <span className="grey">/&#62;</span></h3>
                     <span className="plus">+1 last week</span>
-                    <span className="counter">31</span>
+                    <span className="counter">{userData ? userData.followers : "0"}</span>
                 </div>
 
                 <div className="count-panel">
-                    <h3 className="blue-block"><span className="grey">&#60;</span>Followers <span className="grey">/&#62;</span></h3>
+                    <h3 className="blue-block"><span className="grey">&#60;</span>Following <span className="grey">/&#62;</span></h3>
                     <span className="min">-1 last week</span>
-                    <span className="counter">8</span>
+                    <span className="counter">{userData ? userData.following : "0"}</span>
                 </div>
             </div>
         </div>

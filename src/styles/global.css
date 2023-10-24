@@ -394,6 +394,10 @@ h3 {
     padding-right: 1rem;
 }
 
+.loading {
+    font-size: 1rem !important;
+}
+
 /* Styling resume */
 .resume-container {
     margin-top: 5rem;
