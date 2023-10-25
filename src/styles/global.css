@@ -606,4 +606,8 @@ ul {
     .count-panel-row, .skill-row, .footer-row {
         flex-direction: column;
     }
+
+    .text-art-style {
+        font-size: .6rem;
+    }
 }
