@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react"
 
 export default function Resume() {
+
+    useEffect(() => {
+        // Get all the h4 elements
+        const h4Elements = document.querySelectorAll('.resume-item-large h4');
+
+        // Add click event listeners to each h4 element
+        h4Elements.forEach(h4Element => {
+            h4Element.addEventListener('click', () => {
+                // Toggle the visibility of the ul element inside the parent div
+                const ulElement = h4Element.nextElementSibling; // Assuming the ul is a sibling element
+                if (ulElement.style.display === 'none' || ulElement.style.display === '') {
+                    ulElement.style.display = 'block';
+                } else {
+                    ulElement.style.display = 'none';
+                }
+            });
+        });
+
+    }, []);
 
     return (
         <div className="resume-container">

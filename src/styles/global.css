@@ -404,6 +404,10 @@ h3 {
 }
 
 /* Styling resume */
+.resume-row ul {
+    display: none;
+}
+
 .resume-container {
     margin-top: 5rem;
 }
@@ -416,6 +420,7 @@ h4 {
     margin-top: 1rem;
     padding: .5rem .2rem;
     color: var(--yellow-font-color);
+    user-select: none;
 }
 
 .resume-item-large h4, .resume-item-small h4 {
