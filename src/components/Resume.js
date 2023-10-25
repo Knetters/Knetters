@@ -40,7 +40,7 @@ export default function Resume() {
 
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="purple">HBO</span> - Frontend Design en Development (FDND)</h4>
+                            <h4><span className="red">HBO</span> - Frontend Design en Development (FDND)</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Analyseren van opdrachten</li>
                                 <li><span className="li-icon">▶</span> Werken met complexe front-end toepassingen</li>
@@ -54,7 +54,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="purple">MBO</span> - Media en Applicatie Ontwikkelaar - Niveau 4</h4>
+                            <h4><span className="red">MBO</span> - Media en Applicatie Ontwikkelaar - Niveau 4</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Werkzaamheden plannen en de voortgang bewaken</li>
                                 <li><span className="li-icon">▶</span> Software ontwerpen en (delen van) software realiseren</li>
@@ -68,7 +68,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="purple">MBO</span> - ICT Medewerker en Beheer - Niveau 3</h4>
+                            <h4><span className="red">MBO</span> - ICT Medewerker en Beheer - Niveau 3</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Hard- en software installeren</li>
                                 <li><span className="li-icon">▶</span> Gard- en software onderhouden en beheren</li>

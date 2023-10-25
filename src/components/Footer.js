@@ -12,9 +12,9 @@ export default function Footer() {
                 <div className="footer-column">
                     <ul>
                         <li className="list-header">Socials</li>
-                        <li><a className="footer-link" href="https://github.com/knetters/" target="_blank">GitHub</a></li>
-                        <li><a className="footer-link" href="https://www.linkedin.com/in/thomas-scheepers-b83676187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm" target="_blank">LinkedIn</a></li>
-                        <li><a className="footer-link" href="https://www.instagram.com/thomas.j.b.s/" target="_blank">Instagram</a></li>
+                        <li><a className="footer-link" href="https://github.com/knetters/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a className="footer-link" href="https://www.linkedin.com/in/thomas-scheepers-b83676187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a className="footer-link" href="https://www.instagram.com/thomas.j.b.s/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
 

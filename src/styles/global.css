@@ -141,6 +141,10 @@ nav a:hover {
     color: var(--white-font-color) !important;
 }
 
+.first-line {
+    margin-top: 1rem;
+}
+
 .long-panel p {
     padding: .5rem 1rem;
 }
@@ -267,6 +271,7 @@ background-color: inherit;
 .task-header {
     display: flex;
     width: 100%;
+    margin-bottom: .5rem;
 }
 
 .task-icon {
