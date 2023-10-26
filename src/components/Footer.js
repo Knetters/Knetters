@@ -23,7 +23,7 @@ export default function Footer() {
                         <li className="list-header">Contact</li>
                         <li>thomas@scheepers.com</li>
                         <li>Alkmaar, Nederland</li>
-                        <li>+31 6 53747856</li>
+                        {/* <li>+31 6 53747856</li> */}
                     </ul>
                 </div>
 
