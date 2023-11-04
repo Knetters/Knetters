@@ -30,10 +30,10 @@ export default function Footer() {
                 <div className="footer-column">
                     <ul>
                         <li className="list-header">Navigation</li>
-                        <li><a className="footer-link" href="#intro">Intro</a></li>
-                        <li><a className="footer-link" href="#digital-brain">Digital brain</a></li>
-                        <li><a className="footer-link" href="#projects">Projects</a></li>
-                        <li><a className="footer-link" href="#resume">Resume</a></li>
+                        <li><a className="footer-link" href="/#intro">Intro</a></li>
+                        <li><a className="footer-link" href="/#digital-brain">Digital brain</a></li>
+                        <li><a className="footer-link" href="/#projects">Projects</a></li>
+                        <li><a className="footer-link" href="/#resume">Resume</a></li>
                     </ul>
                 </div>
             </div>

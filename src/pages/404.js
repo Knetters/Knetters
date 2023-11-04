@@ -3,27 +3,22 @@ import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
 
-import BlogIntro from "../components/BlogIntro"
-import BlogPostList from "../components/BlogPostList"
-import Footer from "../components/Footer"
-
-export default function Blog() {
+export default function NotFound() {
   return (
     <main>
       <Helmet>
 
-        <title>Knetters - Blog</title>
+        <title>Knetters</title>
         <meta name="description" content="Digital resume" />
         <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
-        <link rel="stylesheet" href="../css/blog.css"></link>
         
       </Helmet>
 
       <Layout>
-        <BlogIntro />
-        <BlogPostList />
-
-        <Footer />
+        <div className="notfound-section">
+            <span className="notfound">404</span>
+            <h1>Knetters! deze pagina bestaat niet... <a href="/">Terug</a></h1>
+        </div>
       </Layout>
     </main>
   )

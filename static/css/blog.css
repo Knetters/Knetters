@@ -1,0 +1,54 @@
+.blog-title {
+    margin-top: 2rem;
+}
+
+.blog-long-panel {
+    background-color: var(--panel-bg-color);
+    margin-bottom: 0rem;
+    border: 1px solid #303338;
+    border-radius: .5rem;
+}
+
+.blog-long-panel .taskbar {
+    background-color: var(--blue-taskbar-bg-color);
+    border-radius: .5rem .5rem 0rem 0rem;
+}
+
+.blog-long-panel p {
+    padding: .5rem 1rem;
+}
+
+.blog-row {
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+.blog-row a {
+    text-decoration: none;
+}
+
+.blog-item {
+    background-color: var(--panel-bg-color);
+    border-radius: 0.5rem;
+    border: 1px solid #303338;
+    height: 10rem;
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.blog-item:hover {
+    background-color: var(--terminal-bg-color);
+    border: 1px solid var(--green-font-color);
+}
+
+.blog-intro-text {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: .5rem;
+}

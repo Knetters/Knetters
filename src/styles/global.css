@@ -544,6 +544,26 @@ ul {
     color: var(--white-font-color) !important;
 }
 
+.notfound-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -10rem;
+    text-align: center;
+}
+
+.notfound {
+    font-size: 10rem;
+    font-weight: 400;
+    color: var(--red-font-color);
+}
+
+.notfound-section a {
+    color: var(--blue-font-color);
+}
+
 /* Mobile view */
 
 @media only screen and (max-width: 1000px) {

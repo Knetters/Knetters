@@ -56,7 +56,7 @@ export default function Terminal() {
         // Function that shows the current version
         function version() {
             output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
-            output.insertAdjacentHTML('beforeend', `<p>Version: <span class="yellow">1.4.1</span></p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Version: <span class="yellow">1.4.2</span></p>`);
         }
 
         // Function that redirects the user to my GitHub profile
@@ -86,6 +86,58 @@ export default function Terminal() {
             }
 
             fillBar();
+        }
+
+        // Function that redirects the user to the blog page
+        function blog() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+
+            output.insertAdjacentHTML('beforeend', `<p>Redirecting...</p>`);
+
+            output.insertAdjacentHTML('beforeend', `<p>Progress: <span id="progressBar">░░░░░░░░░░░░░░░░░░░░</span></p>`);
+            const progressBars = document.querySelectorAll("#progressBar");
+            const progressBar = progressBars[progressBars.length - 1];
+
+            let bar = "░░░░░░░░░░░░░░░░░░░░";
+
+            function fillBar() {
+                let i = 0;
+                let interval = setInterval(function() {
+                    if (i === bar.length) {
+                        clearInterval(interval);
+                            window.open('/blog', '_blank');
+                        return;
+                    }
+                    bar = bar.substring(0, i) + "▓" + bar.substring(i + 1);
+                    progressBar.innerHTML = bar;
+                    i++;
+                }, 1000 / bar.length);
+            }
+
+            fillBar();
+        }
+
+        function sanne() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Je naam is geen commando <span class="yellow">pannenkoek</span></p>`);
+        }
+
+        function tim() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Ik wist dat je dit ging doen Tim... <span class="red">Sukkel</span></p>`);
+        }
+
+        function milan() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Ga padellen ofzo!</p>`);
+        }
+        function anouk() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Aardappel</p>`);
+        }
+        function danique() {
+            output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
+            output.insertAdjacentHTML('beforeend', `<p>Golddigger</p>`);
         }
 
         // Function that gives the user info
@@ -194,6 +246,9 @@ export default function Terminal() {
             else if (assignment === "github") {
                 github();
             }
+            else if (assignment === "blog") {
+                blog();
+            }
             else if (assignment === "info") {
                 info();
             }
@@ -202,6 +257,21 @@ export default function Terminal() {
             }
             else if (assignment === "goto") {
                 goTo(parameter);
+            }
+            else if (assignment === "sanne") {
+                sanne();
+            }
+            else if (assignment === "tim") {
+                tim();
+            }
+            else if (assignment === "milan") {
+                milan();
+            }
+            else if (assignment === "anouk") {
+                anouk();
+            }
+            else if (assignment === "danique") {
+                danique();
             }
             else if (assignment === "") {
                 output.insertAdjacentHTML('beforeend', `<p><span class="blue">~/tmp/users</span> <span class="red">admin </span><span class="red">> </span>${input.value}</p>`);
@@ -228,7 +298,7 @@ export default function Terminal() {
                 
                 <div id="welcome-msg" className="welcome-msg-margin">
                     <p id="text-art" className="text-art-style" aria-hidden="true"><span className="red" >Terminal disabled</span></p>
-                    <p className="bottom-spacing">To my digital brain - Type <span className="purple">help</span> for a list of supported commands.</p>
+                    <p className="bottom-spacing">To my digital brain - Type <span className="yellow">help</span> for a list of supported commands.</p>
                 </div>
 
                 <div id="output">
