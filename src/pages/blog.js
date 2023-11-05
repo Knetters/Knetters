@@ -15,7 +15,6 @@ export default function Blog() {
         <title>Knetters - Blog</title>
         <meta name="description" content="Digital resume" />
         <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
-        <link rel="stylesheet" href="../css/blog.css"></link>
         
       </Helmet>
 

@@ -10,7 +10,6 @@ export default function BlogIntro() {
                 <div className="taskbar">
                     <p>♢ Intro</p>
                 </div>
-                <p className="first-line">FDND gastcolleges</p>
                 <p>Intro over de web love web gastcolleges, wat de bedoeling is van deze website en wat er allemaal te lezen is.</p>
                 <p className="call-to-action">Call to action</p>
             </section>
