@@ -43,7 +43,7 @@ export default function Projects() {
                     <p className="task-header"><span className="task-icon"></span><span className="task-name">name</span><span className="task-date">begin date</span><span className="task-status">status</span></p>
 
                     {projects.map((project) => (
-                            <a className="project-line-a" href={project.url} target="_blank" rel="noopener noreferrer"><p className="task-row"><span className="task-icon">{project.code}</span><span className="task-name">{project.title}</span><span className="task-date">{project.created}</span><span className="task-status"><span className={`${project.level === "building" ? "building" : "complete"}`}>{project.level}</span></span></p></a>
+                        <a className="project-line-a" href={project.url} target="_blank" rel="noopener noreferrer"><p className="task-row"><span className="task-icon">{project.code}</span><span className="task-name">{project.title}</span><span className="task-date">{project.created}</span><span className="task-status"><span className={`${project.level === "building" ? "building" : "complete"}`}>{project.level}</span></span></p></a>
                     ))}
                     
                 </div>
