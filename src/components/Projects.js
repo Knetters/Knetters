@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
  
 export default function Projects() {
 
-    const data = useStaticQuery(graphql`
+    const projectData = useStaticQuery(graphql`
     query {
         graphCmsData {
             projects {
@@ -19,7 +19,7 @@ export default function Projects() {
         }
     `);
 
-    const projects = data.graphCmsData.projects;
+    const projects = projectData.graphCmsData.projects;
 
     const [userData, setUserData] = useState(null);
 

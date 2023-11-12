@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 export default function BlogPostList() {
 
-    const data = useStaticQuery(graphql`
+    const blogData = useStaticQuery(graphql`
     query {
         graphCmsData {
             posts {
@@ -18,7 +18,7 @@ export default function BlogPostList() {
         }
     `);
 
-    const posts = data.graphCmsData.posts;
+    const posts = blogData.graphCmsData.posts;
 
     return (
         <section>    
@@ -38,17 +38,17 @@ export default function BlogPostList() {
             </div>
 
             <ul className="blog-row">
-                {posts.map((post) => (
+                {posts.map((blogData) => (
                     <a href="/blog/post/[slug]">
                         <li className="blog-item">
                             <div className="inner-blog-item">
                                 <img src="/img/bedrijfsleven.png" alt="" />
                                 <div className="inner-blog-content">
                                     <div className="blog-title-row">
-                                        <h3><span className="grey">&#60;</span>{post.title} <span className="grey">/&#62;</span></h3>
-                                        <p>Gastspreker: <span className="green">{post.speaker}</span></p>
+                                        <h3><span className="grey">&#60;</span>{blogData.title} <span className="grey">/&#62;</span></h3>
+                                        <p>Gastspreker: <span className="green">{blogData.speaker}</span></p>
                                     </div>
-                                    <p className="blog-intro-text">{post.intro}</p>
+                                    <p className="blog-intro-text">{blogData.intro}</p>
                                 </div>
                             </div>
                         </li>
