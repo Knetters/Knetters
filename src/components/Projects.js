@@ -1,25 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useData } from "../useData";
  
 export default function Projects() {
 
-    const projectData = useStaticQuery(graphql`
-    query {
-        graphCmsData {
-            projects {
-                id
-                title
-                url
-                slug
-                level
-                created
-                code
-                }
-            }
-        }
-    `);
-
-    const projects = projectData.graphCmsData.projects;
+    const { projects } = useData();
 
     const [userData, setUserData] = useState(null);
 

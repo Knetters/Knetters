@@ -1,24 +1,9 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
+import { useData } from "../useData";
 
 export default function BlogPostList() {
 
-    const blogData = useStaticQuery(graphql`
-    query {
-        graphCmsData {
-            posts {
-                id
-                title
-                slug
-                category
-                speaker
-                intro
-                }
-            }
-        }
-    `);
-
-    const posts = blogData.graphCmsData.posts;
+    const { posts } = useData();
 
     return (
         <section>    
