@@ -13,20 +13,12 @@ export const useData = () => {
           created
           code
         }
-        posts {
-          id
-          title
-          slug
-          category
-          speaker
-          intro
-        }
+        
       }
     }
   `);
 
   return {
     projects: data.graphCmsData.projects,
-    posts: data.graphCmsData.posts,
   };
 };
