@@ -209,15 +209,15 @@ export default function Resume() {
 
                     <div className="skill-row">
                         <div className="skill-item">
-                            <p className="skill-name">IOS</p>
-                            <p className="skill-value">9/10</p>
+                            <p className="skill-name">SvelteKit</p>
+                            <p className="skill-value">7/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">Android</p>
-                            <p className="skill-value">8/10</p>
+                            <p className="skill-name">Next.js</p>
+                            <p className="skill-value">6/10</p>
                         </div>
                         <div className="skill-item">
-                            <p className="skill-name">Office</p>
+                            <p className="skill-name">Toegankelijkheid</p>
                             <p className="skill-value last-skill">8/10</p>
                         </div>
                     </div>
