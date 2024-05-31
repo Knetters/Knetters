@@ -38,33 +38,33 @@ export default function Resume() {
                         <h4>Practical information</h4>
                     </div>
 
-                    <div className="skill-row">
-                        <div className="skill-item">
-                            <p className="skill-name">Full name</p>
-                            <p className="skill-value">Thomas. J. B. Scheepers</p>
+                    <div className="practical-row">
+                        <div className="practical-item">
+                            <p className="practical-name">Full name</p>
+                            <p className="practical-value">Thomas. J. B. Scheepers</p>
                         </div>
-                        <div className="skill-item">
-                            <p className="skill-name">Geslacht</p>
-                            <p className="skill-value">Man</p>
+                        <div className="practical-item">
+                            <p className="practical-name">Geslacht</p>
+                            <p className="practical-value">Man</p>
                         </div>
-                        <div className="skill-item">
-                            <p className="skill-name">Geboren op</p>
-                            <p className="skill-value last-skill">28 feb, 2000</p>
+                        <div className="practical-item">
+                            <p className="practical-name">Geboren op</p>
+                            <p className="practical-value last-skill">28 feb, 2000</p>
                         </div>
                     </div>
 
-                    <div className="skill-row">
-                        <div className="skill-item">
-                            <p className="skill-name">Woonplaats</p>
-                            <p className="skill-value">Alkmaar</p>
+                    <div className="practical-row">
+                        <div className="practical-item">
+                            <p className="practical-name">Woonplaats</p>
+                            <p className="practical-value">Alkmaar</p>
                         </div>
-                        <div className="skill-item">
-                            <p className="skill-name">Nationaliteit</p>
-                            <p className="skill-value">Nederlands</p>
+                        <div className="practical-item">
+                            <p className="practical-name">Nationaliteit</p>
+                            <p className="practical-value">Nederlands</p>
                         </div>
-                        <div className="skill-item">
-                            <p className="skill-name"></p>
-                            <p className="skill-value last-skill"></p>
+                        <div className="practical-item">
+                            <p className="practical-name"></p>
+                            <p className="practical-value last-skill"></p>
                         </div>
                     </div>
 
