@@ -19,6 +19,18 @@ export default function Resume() {
             });
         });
 
+        h4Element.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                // Toggle the visibility of the ul element inside the parent div
+                const ulElement = h4Element.nextElementSibling; // Assuming the ul is a sibling element
+                if (ulElement.style.display === 'none' || ulElement.style.display === '') {
+                    ulElement.style.display = 'block';
+                } else {
+                    ulElement.style.display = 'none';
+                }
+            }
+        });
+
     }, []);
 
     return (
