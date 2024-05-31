@@ -75,7 +75,7 @@ export default function Resume() {
 
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="red">HBO</span> - Frontend Design en Development (FDND)</h4>
+                            <h4 tabindex="0"><span className="red">HBO</span> - Frontend Design en Development (FDND)</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Analyseren van opdrachten</li>
                                 <li><span className="li-icon">▶</span> Werken met complexe front-end toepassingen</li>
@@ -89,7 +89,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="red">MBO</span> - Media en Applicatie Ontwikkelaar - Niveau 4</h4>
+                            <h4 tabindex="0"><span className="red">MBO</span> - Media en Applicatie Ontwikkelaar - Niveau 4</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Werkzaamheden plannen en de voortgang bewaken</li>
                                 <li><span className="li-icon">▶</span> Software ontwerpen en (delen van) software realiseren</li>
@@ -103,7 +103,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4><span className="red">MBO</span> - ICT Medewerker en Beheer - Niveau 3</h4>
+                            <h4 tabindex="0"><span className="red">MBO</span> - ICT Medewerker en Beheer - Niveau 3</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Hard- en software installeren</li>
                                 <li><span className="li-icon">▶</span> Gard- en software onderhouden en beheren</li>
@@ -122,7 +122,7 @@ export default function Resume() {
 
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Junior Web Developer bij Triple</h4>
+                            <h4 tabindex="0">Junior Web Developer bij Triple</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span></li>
                                 <li><span className="li-icon">▶</span></li>
@@ -136,7 +136,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Stagiair Web Developer bij Triple</h4>
+                            <h4 tabindex="0">Stagiair Web Developer bij Triple</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Onderzoeken en bouwen van nieuwe technologieen met Contentful Studio.</li>
                                 <li><span className="li-icon">▶</span> TypeScript leren doormiddel van een movie picker app voor SmartTv's.</li>
@@ -150,7 +150,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Stagiair Developer bij DreamLab</h4>
+                            <h4 tabindex="0">Stagiair Developer bij DreamLab</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Het ontwerpen van websites.</li>
                                 <li><span className="li-icon">▶</span> Het ontwikkelen van websites met WordPress.</li>
@@ -164,7 +164,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Stagiair Developer bij RAADHUIS</h4>
+                            <h4 tabindex="0">Stagiair Developer bij RAADHUIS</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Het ontwikkelen en onderhouden van websites.</li>
                                 <li><span className="li-icon">▶</span> Aanpassingen aanbrengen aan websites op verzoek van de opdrachtgever.</li>
@@ -178,7 +178,7 @@ export default function Resume() {
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Mediamarkt Powerservice Medewerker</h4>
+                            <h4 tabindex="0">Mediamarkt Powerservice Medewerker</h4>
                             <ul>
                                 <li><span className="li-icon">▶</span> Het helpen met problemen van smart devices.</li>
                                 <li><span className="li-icon">▶</span> Probleemoplossingsgericht denken.</li>
