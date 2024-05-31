@@ -26,7 +26,7 @@ export default function Resume() {
 
             <section className="long-panel intro-panel">
                 <div className="taskbar">
-                    <p>♢ Terminal</p>
+                    <p>♢ My digital resume</p>
                     <p id="downloadPDF" className="taskbar-icon download-link">Download</p>
                 </div>
 
