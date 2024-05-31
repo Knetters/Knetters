@@ -153,7 +153,7 @@ export default function Resume() {
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
-                            <p>2019 t/m heden</p>
+                            <p>2019 t/m 2024</p>
                         </div>
                     </div>
 
