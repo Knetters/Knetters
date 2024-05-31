@@ -33,6 +33,41 @@ export default function Resume() {
 
                 <section id="exportPDF" className="inner-resume-container">
 
+                    {/* Practical */}
+                    <div className="resume-title">
+                        <h4>Practical information</h4>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Full name</p>
+                            <p className="skill-value">Thomas. J. B. Scheepers</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Geslacht</p>
+                            <p className="skill-value">Man</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Geboren op</p>
+                            <p className="skill-value last-skill">28 feb, 2000</p>
+                        </div>
+                    </div>
+
+                    <div className="skill-row">
+                        <div className="skill-item">
+                            <p className="skill-name">Woonplaats</p>
+                            <p className="skill-value">Alkmaar</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name">Nationaliteit</p>
+                            <p className="skill-value">Nederlands</p>
+                        </div>
+                        <div className="skill-item">
+                            <p className="skill-name"></p>
+                            <p className="skill-value last-skill"></p>
+                        </div>
+                    </div>
+
                     {/* Education */}
                     <div className="resume-title">
                         <h4>Education</h4>
