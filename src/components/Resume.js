@@ -41,7 +41,7 @@ export default function Resume() {
                     <div className="practical-row">
                         <div className="practical-item">
                             <p className="practical-name">Voornaam</p>
-                            <p className="practical-value">Thomas</p>
+                            <p className="practical-value">Thomas. J. B.</p>
                         </div>
                         <div className="practical-item">
                             <p className="practical-name">Familienaam</p>
