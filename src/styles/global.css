@@ -511,12 +511,12 @@ ul {
 }
 
 .practical-name {
-    width: 40%;
+    width: 35%;
     color: var(--green-font-color);
 }
 
 .practical-value {
-    width: 60%;
+    width: 65%;
     text-align: right;
     border-right: 2px dashed var(--grey-font-color);
 }
