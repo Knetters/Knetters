@@ -40,12 +40,12 @@ export default function Resume() {
 
                     <div className="practical-row">
                         <div className="practical-item">
-                            <p className="practical-name">Name</p>
-                            <p className="practical-value">Thomas. J. B. Scheepers</p>
+                            <p className="practical-name">Voornaam</p>
+                            <p className="practical-value">Thomas</p>
                         </div>
                         <div className="practical-item">
-                            <p className="practical-name">Geslacht</p>
-                            <p className="practical-value">Man</p>
+                            <p className="practical-name">Familienaam</p>
+                            <p className="practical-value">Scheepers</p>
                         </div>
                         <div className="practical-item">
                             <p className="practical-name">Geboren op</p>
@@ -55,16 +55,16 @@ export default function Resume() {
 
                     <div className="practical-row">
                         <div className="practical-item">
-                            <p className="practical-name">Woonplaats</p>
-                            <p className="practical-value">Alkmaar</p>
+                            <p className="practical-name">Geslacht</p>
+                            <p className="practical-value">Man</p>
                         </div>
                         <div className="practical-item">
-                            <p className="practical-name">Geboorteland</p>
+                            <p className="practical-name">Nationaliteit</p>
                             <p className="practical-value">Nederlands</p>
                         </div>
                         <div className="practical-item">
-                            <p className="practical-name"></p>
-                            <p className="practical-value last-skill"></p>
+                            <p className="practical-name">Woonplaats</p>
+                            <p className="practical-value last-skill">Alkmaar</p>
                         </div>
                     </div>
 
