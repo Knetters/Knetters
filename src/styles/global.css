@@ -493,6 +493,34 @@ ul {
     text-decoration: underline;
 }
 
+.practical-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: .3rem;
+}
+
+.practical-item {
+    width: 100%;
+    display: flex;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.practical-item:hover {
+    background-color: var(--terminal-bg-color);
+}
+
+.practical-name {
+    width: 60%;
+    color: var(--green-font-color);
+}
+
+.practical-value {
+    width: 40%;
+    text-align: right;
+    border-right: 2px dashed var(--grey-font-color);
+}
+
 .skill-row {
     width: 100%;
     display: flex;
