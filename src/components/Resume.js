@@ -49,7 +49,7 @@ export default function Resume() {
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
-                            <p>2022 t/m heden</p>
+                            <p>2022 t/m 2024</p>
                         </div>
                     </div>
                     <div className="resume-row">
@@ -87,27 +87,40 @@ export default function Resume() {
 
                     <div className="resume-row">
                         <div className="resume-item-large">
-                            <h4>Mediamarkt Powerservice Medewerker</h4>
+                            <h4>Junior Web Developer bij Triple</h4>
                             <ul>
-                                <li><span className="li-icon">▶</span> Het helpen met problemen van smart devices</li>
-                                <li><span className="li-icon">▶</span> Probleemoplossingsgericht denken</li>
-                                <li><span className="li-icon">▶</span> Het installeren en gebruiksklaar maken van laptops, smartphones en televisies</li>
-                                <li><span className="li-icon">▶</span> De data overzetten van oude naar nieuwe apparaten</li>
-                                <li><span className="li-icon">▶</span> Ondersteuning bieden aan de klanten van de Mediamarkt</li>
+                                <li><span className="li-icon">▶</span></li>
+                                <li><span className="li-icon">▶</span></li>
+                                <li><span className="li-icon">▶</span></li>
+                                <li><span className="li-icon">▶</span></li>
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
-                            <p>2019 t/m heden</p>
+                            <p>08/2024 t/m heden</p>
+                        </div>
+                    </div>
+                    <div className="resume-row">
+                        <div className="resume-item-large">
+                            <h4>Stagiair Web Developer bij Triple</h4>
+                            <ul>
+                                <li><span className="li-icon">▶</span> Onderzoeken en bouwen van nieuwe technologieen met Contentful Studio.</li>
+                                <li><span className="li-icon">▶</span> TypeScript leren doormiddel van een movie picker app voor SmartTv's.</li>
+                                <li><span className="li-icon">▶</span> Toepassen van creatieve oplossingen in projecten van klanten van Triple.</li>
+                                <li><span className="li-icon">▶</span> Verantwooding nemen voor eigen resultaten binnen projecten in een team.</li>
+                            </ul>
+                        </div>
+                        <div className="resume-item-small set-right">
+                            <p>02/2024 t/m 06/2024</p>
                         </div>
                     </div>
                     <div className="resume-row">
                         <div className="resume-item-large">
                             <h4>Stagiair Developer bij DreamLab</h4>
                             <ul>
-                                <li><span className="li-icon">▶</span> Het ontwerpen van websites</li>
-                                <li><span className="li-icon">▶</span> Het ontwikkelen van websites met WordPress</li>
-                                <li><span className="li-icon">▶</span> Websites onderhouden en aanpassen op verzoek van de opdrachtgever</li>
-                                <li><span className="li-icon">▶</span> Communiceren met opdrachtgevers</li>
+                                <li><span className="li-icon">▶</span> Het ontwerpen van websites.</li>
+                                <li><span className="li-icon">▶</span> Het ontwikkelen van websites met WordPress.</li>
+                                <li><span className="li-icon">▶</span> Websites onderhouden en aanpassen op verzoek van de opdrachtgever.</li>
+                                <li><span className="li-icon">▶</span> Communiceren met opdrachtgevers.</li>
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
@@ -118,14 +131,29 @@ export default function Resume() {
                         <div className="resume-item-large">
                             <h4>Stagiair Developer bij RAADHUIS</h4>
                             <ul>
-                                <li><span className="li-icon">▶</span> Het ontwikkelen en onderhouden van websites</li>
-                                <li><span className="li-icon">▶</span> Aanpassingen aanbrengen aan websites op verzoek van de opdrachtgever</li>
-                                <li><span className="li-icon">▶</span> Mee werken aan het ontwerpproces van verschillende projecten</li>
-                                <li><span className="li-icon">▶</span> Eindproduct presenteren en uitleg geven aan de opdrachtgever</li>
+                                <li><span className="li-icon">▶</span> Het ontwikkelen en onderhouden van websites.</li>
+                                <li><span className="li-icon">▶</span> Aanpassingen aanbrengen aan websites op verzoek van de opdrachtgever.</li>
+                                <li><span className="li-icon">▶</span> Mee werken aan het ontwerpproces van verschillende projecten.</li>
+                                <li><span className="li-icon">▶</span> Eindproduct presenteren en uitleg geven aan de opdrachtgever.</li>
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
                             <p>08/2019 t/m 02/2020</p>
+                        </div>
+                    </div>
+                    <div className="resume-row">
+                        <div className="resume-item-large">
+                            <h4>Mediamarkt Powerservice Medewerker</h4>
+                            <ul>
+                                <li><span className="li-icon">▶</span> Het helpen met problemen van smart devices.</li>
+                                <li><span className="li-icon">▶</span> Probleemoplossingsgericht denken.</li>
+                                <li><span className="li-icon">▶</span> Het installeren en gebruiksklaar maken van laptops, smartphones en televisies.</li>
+                                <li><span className="li-icon">▶</span> De data overzetten van oude naar nieuwe apparaten.</li>
+                                <li><span className="li-icon">▶</span> Ondersteuning bieden aan de klanten van de Mediamarkt.</li>
+                            </ul>
+                        </div>
+                        <div className="resume-item-small set-right">
+                            <p>2019 t/m heden</p>
                         </div>
                     </div>
 
