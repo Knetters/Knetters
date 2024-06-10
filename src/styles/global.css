@@ -421,7 +421,7 @@ h3 {
     text-align: right;
 }
 
-h4 {
+.resume-container h3 {
     margin-top: 1rem;
     padding: .5rem .2rem;
     color: var(--yellow-font-color);
