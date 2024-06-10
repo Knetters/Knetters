@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <main>
       <Helmet>
-        htmlAttributes={{lang: 'nl',}}
         <title>Knetters - Portfolio and Resume</title>
         <meta name="description" content="Digital resume" />
         <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png" />
