@@ -34,7 +34,7 @@ export default function Resume() {
 
                     {/* Practical */}
                     <div className="resume-title">
-                        <h4>Practical information</h4>
+                        <h3>Practical information</h3>
                     </div>
 
                     <div className="skill-row">
@@ -69,7 +69,7 @@ export default function Resume() {
 
                     {/* Education */}
                     <div className="resume-title">
-                        <h4>Education</h4>
+                        <h3>Education</h3>
                     </div>
 
                     <div className="resume-row">
@@ -116,7 +116,7 @@ export default function Resume() {
 
                     {/* Professional Experience */}
                     <div className="resume-title">
-                        <h4>Professional Experience</h4>
+                        <h3>Professional Experience</h3>
                     </div>
 
                     <div className="resume-row">
@@ -193,7 +193,7 @@ export default function Resume() {
 
                     {/* Skills */}
                     <div className="resume-title">
-                        <h4>Skills</h4>
+                        <h3>Skills</h3>
                     </div>
 
                     <div className="skill-row">
@@ -272,7 +272,7 @@ export default function Resume() {
                     </div>
 
                     <div className="resume-title">
-                        <h4>Languages</h4>
+                        <h3>Languages</h3>
                     </div>
 
                     <div className="skill-row">
@@ -291,7 +291,7 @@ export default function Resume() {
                     </div>
 
                     <div className="resume-title">
-                        <h4>Extra</h4>
+                        <h3>Extra</h3>
                     </div>
 
                     <div className="skill-row">
