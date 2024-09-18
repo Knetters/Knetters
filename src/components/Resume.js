@@ -123,10 +123,8 @@ export default function Resume() {
                         <div className="resume-item-large">
                             <h4 tabindex="0">Junior Web Developer bij Triple</h4>
                             <ul>
-                                <li><span className="li-icon">▶</span></li>
-                                <li><span className="li-icon">▶</span></li>
-                                <li><span className="li-icon">▶</span></li>
-                                <li><span className="li-icon">▶</span></li>
+                                <li><span className="li-icon">▶</span> Het creëren van makkelijk te gebruiken HTML snippets voor de klant met Storybook en React.</li>
+                                <li><span className="li-icon">▶</span> Onderzoek doen op het gebied van v0 ai toepassingen en het gebruik voor Triple.</li>
                             </ul>
                         </div>
                         <div className="resume-item-small set-right">
