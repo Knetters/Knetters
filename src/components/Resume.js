@@ -22,12 +22,11 @@ export default function Resume() {
 
     return (
         <div className="resume-container">
-            <h2 id="resume" className="set-right"><span className="grey">&#60;</span>Resume <span className="grey">/&#62;</span></h2>
+            <h2 id="resume"><span className="grey">&#60;</span>Resume <span className="grey">/&#62;</span></h2>
 
             <section className="long-panel intro-panel">
                 <div className="taskbar">
                     <p>♢ My digital resume</p>
-                    <p id="downloadPDF" className="taskbar-icon download-link">Download</p>
                 </div>
 
                 <section id="exportPDF" className="inner-resume-container">
